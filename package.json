@@ -1,0 +1,15 @@
+{
+  "name": "@fatso83/run-esm",
+  "version": "1.0.0",
+  "description": "Runs a ESM module in Chrome and checks that a user-supplied test script exits cleanly",
+  "main": "check-esm-bundle-is-runnable.js",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carl-Erik Kopseng",
+  "license": "ISC"
+}
