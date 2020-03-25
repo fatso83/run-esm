@@ -8,7 +8,7 @@ You _could_ try running them in Node using something like `node -r esm`, of cour
 
 
 ## Usage
-See examples in `test`
+See examples in `test`. The import path will always be root (`/`).
 
 ```
 it("should exit cleanly if nothing throws", async () => {
