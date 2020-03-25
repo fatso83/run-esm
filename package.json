@@ -4,9 +4,15 @@
   "description": "Runs a ESM module in Chrome and checks that a user-supplied test script exits cleanly",
   "main": "check-esm-bundle-is-runnable.js",
   "dependencies": {
+    "debug": "^4.1.1",
+    "get-port": "^5.1.1",
     "puppeteer": "^2.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@sinonjs/referee": "^5.0.1",
+    "mocha": "^7.1.1",
+    "prettier": "^2.0.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
