@@ -1,6 +1,6 @@
 {
   "name": "@fatso83/run-esm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runs a ESM module in Chrome and checks that a user-supplied test script exits cleanly",
   "main": "check-esm-bundle-is-runnable.js",
   "dependencies": {
