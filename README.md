@@ -8,7 +8,7 @@ You _could_ try running them in Node using something like `node -r esm`, of cour
 
 
 ## Usage
-See examples in `test`. The import path will always be root (`/`).
+See examples in [`test/`](https://github.com/fatso83/run-esm/blob/master/test/test.js). The import path will always be relative to root, i.e. (`/${filename}`).
 
 ```
 it("should exit cleanly if nothing throws", async () => {
