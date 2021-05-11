@@ -17,5 +17,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Carl-Erik Kopseng",
+  "homepage": "https://github.com/fatso83/run-esm",
   "license": "ISC"
 }
